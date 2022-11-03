@@ -1,0 +1,28 @@
+#bulgaria {
+  width: 1200px;
+  height: 650px;
+  border: 1px solid darkgray;
+  margin: 10;
+  position: relative;
+  background-color: rgb(39, 180, 39);
+}
+
+#bulgaria:before {
+  content: '';
+  top: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  height: 33%;
+  background-color: white;
+}
+
+#bulgaria:after {
+  content: '';
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+  height: 33%;
+  background-color: red;
+}

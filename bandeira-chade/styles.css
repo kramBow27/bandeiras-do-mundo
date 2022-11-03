@@ -1,0 +1,28 @@
+#bandeira-chade {
+  width: 1200px;
+  height: 650px;
+  position: relative;
+  border: 1 px solid darkgrey;
+  margin: 10px;
+  background: yellow;
+}
+
+#bandeira-chade:before {
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 33%;
+  background-color: rgb(71, 71, 212);
+}
+
+#bandeira-chade:after {
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  width: 33%;
+  background: red;
+}

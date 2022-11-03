@@ -1,0 +1,29 @@
+#flag {
+  width: 1200px;
+  height: 650px;
+
+  border: 1px solid #bbb;
+  margin: 10px;
+  position: relative;
+  background: #fff;
+}
+
+/*ITEM A SER ADICIONADO PRIMEIRO */
+#flag:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background: #00f;
+  width: 33%;
+}
+#flag:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #f00;
+  width: 33%;
+}

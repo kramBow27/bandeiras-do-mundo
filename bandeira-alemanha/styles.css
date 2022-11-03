@@ -1,0 +1,28 @@
+#bandeira-da-alemanha {
+  width: 1200px;
+  height: 650px;
+  position: relative;
+  border: 1px solid darkgray;
+  background: red;
+  margin: 10px;
+}
+
+#bandeira-da-alemanha:before {
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 33%;
+  background-color: black;
+}
+
+#bandeira-da-alemanha:after {
+  content: '';
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 33%;
+  background-color: yellow;
+}

@@ -1,0 +1,27 @@
+#benin {
+  width: 1200px;
+  height: 650px;
+  position: relative;
+  border: 1px solid darkgrey;
+  background-color: red;
+}
+
+#benin:before {
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 50%;
+  background-color: yellow;
+}
+
+#benin:after {
+  content: '';
+  bottom: 0;
+  top: 0;
+  left: 0;
+  width: 38%;
+  position: absolute;
+  background-color: green;
+}

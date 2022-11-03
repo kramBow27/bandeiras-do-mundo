@@ -1,0 +1,27 @@
+#flag {
+  width: 1200px;
+  height: 650px;
+  border: 1px solid darkgrey;
+  position: relative;
+  margin: 10px;
+}
+
+#flag:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  background: rgb(27, 173, 51);
+  width: 33%;
+}
+
+#flag:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: red;
+  width: 33%;
+}
